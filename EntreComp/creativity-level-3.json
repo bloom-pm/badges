@@ -1,0 +1,21 @@
+{
+    "id": "https://bloom.pm/badges/creativity-level-3",
+    "type": "BadgeClass",
+    "name": "Level 3: Skill Enhancement",
+    "description": "Develop several ideas and opportunities to create value, including better solutions to existing and new challenges. Explore and experiment with innovative approaches. Combine knowledge and resources to achieve valuable effects.",
+    "image": "",
+    "criteria": {
+        "narrative": "Level 3: Skill Enhancement"
+    },
+    "issuer": {
+        "id": "https://bloom.pm",
+        "name": "Bloom.pm",
+        "url": "https://bloom.pm",
+        "email": "bilal@bloom.pm"
+    },
+    "tags": [
+        "creativity-level-3",
+        "community",
+        "self-recognition"
+    ]
+}

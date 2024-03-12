@@ -1,0 +1,21 @@
+{
+    "id": "https://bloom.pm/badges/creativity-level-0",
+    "type": "BadgeClass",
+    "name": "Level 0: Community and Self Recognized",
+    "description": "This badge is for us to give to each other and ourselves when we want to recognize our skills without needing verification.",
+    "image": "",
+    "criteria": {
+        "narrative": "Level 0: Community and Self Recognized"
+    },
+    "issuer": {
+        "id": "https://bloom.pm",
+        "name": "Bloom.pm",
+        "url": "https://bloom.pm",
+        "email": "bilal@bloom.pm"
+    },
+    "tags": [
+        "creativity-level-0",
+        "community",
+        "self-recognition"
+    ]
+}
