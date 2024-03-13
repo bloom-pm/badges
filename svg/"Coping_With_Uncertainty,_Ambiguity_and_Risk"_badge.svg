@@ -186,7 +186,7 @@ iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAA
         "type": "email",
         "hashed": false
     },
-    "badge": "https://raw.githubusercontent.com/bloom-pm/badges/main/EntreComp/coping-level-0.json",
+    "badge": "https://bloom.pm/wordpress/wp-content/uploads/badges/EntreComp/coping-level-0.json",
     "verify": {
         "type": "hosted",
         "url": "https://raw.githubusercontent.com/bloom-pm/badges/main/assertions/assertion_recyfII2hYjTm5C9h.json"
