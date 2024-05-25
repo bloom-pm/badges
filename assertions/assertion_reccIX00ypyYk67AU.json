@@ -6,7 +6,7 @@
   "recipient": {
     "type": "email",
     "hashed": true,
-    "identity": "41c217a34083e9ffd2ca304948c4ed6fb9134f8e5afce153728ea3f0daa2dc9e"
+    "identity": "sha256$41c217a34083e9ffd2ca304948c4ed6fb9134f8e5afce153728ea3f0daa2dc9e"
   },
   "badge": "https://raw.githubusercontent.com/bloom-pm/badges/main/svg/Mobilizing_Others_badge.svg",
   "verification": {
