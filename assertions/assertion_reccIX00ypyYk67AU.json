@@ -1,0 +1,31 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "uid": "reccIX00ypyYk67AU",
+  "id": "https://raw.githubusercontent.com/bloom-pm/badges/main/assertions/assertion_reccIX00ypyYk67AU.json",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "identity": "sha256$2439c199971e44a07babc5854f5a7fae04028f1c85f492a70bddfa9f55d54130"
+  },
+  "badge": "https://raw.githubusercontent.com/bloom-pm/badges/main/svg/Mobilizing_Others_badge.svg",
+  "verification": {
+    "type": "hosted",
+    "url": "https://raw.githubusercontent.com/bloom-pm/badges/main/assertions/assertion_reccIX00ypyYk67AU.json"
+  },
+  "issuedOn": "2024-05-15T20:23:44.108Z",
+  "issuer": {
+    "id": "https://bloom.pm",
+    "name": "Bloom.pm",
+    "email": "bilal@bloom.pm",
+    "url": "https://bloom.pm"
+  },
+  "evidence": "https://pastebin.com/raw/gYZbp4rg",
+  "narrative": "Inspire and enthuse relevant stakeholders. Get the support needed to achieve valuable outcomes. Demonstrate effective communication, persuasion, negotiation and leadership",
+  "alignment": {
+    "targetName": "Mobilizing Others",
+    "targetUrl": "",
+    "targetDescription": "Inspire and enthuse relevant stakeholders. Get the support needed to achieve valuable outcomes. Demonstrate effective communication, persuasion, negotiation and leadership",
+    "targetFramework": "EntreComp"
+  }
+}
