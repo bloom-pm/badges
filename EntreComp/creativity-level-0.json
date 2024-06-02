@@ -3,14 +3,14 @@
     "type": "BadgeClass",
     "name": "Level 0: Community and Self Recognized",
     "description": "This badge is for us to give to each other and ourselves when we want to recognize our skills without needing verification.",
-    "image": "",
+    "image": "Default image URL if no SVG provided",
     "criteria": {
         "narrative": "Level 0: Community and Self Recognized"
     },
     "issuer": {
         "id": "https://bloom.pm",
         "name": "Bloom.pm",
-        "url": "https://bloom.pm",
+        "url": "https://bloom.pm/wordpress/wp-content/uploads/badges/issuer.json",
         "email": "bilal@bloom.pm"
     },
     "tags": [

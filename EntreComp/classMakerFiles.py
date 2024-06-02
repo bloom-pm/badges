@@ -1,22 +1,32 @@
 import csv
 import json
 import os
+import base64
+
+# Function to create a Data URI for an SVG image
+def encode_image_to_data_uri(svg_content):
+    if svg_content:
+        # Encode SVG content to base64
+        encoded_svg = base64.b64encode(svg_content.encode('utf-8')).decode('utf-8')
+        return f"data:image/svg+xml;base64,{encoded_svg}"
+    return None
 
 # Function to create JSON structure for badge class
 def create_badge_class_json(row):
+    image_data_uri = encode_image_to_data_uri(row["Level Icon SVG Text"])
     return {
         "id": f"https://bloom.pm/badges/{row['Short Name']}",
         "type": "BadgeClass",
         "name": row["Level"],
         "description": row["LevelDescription"],
-        "image": row["Level Icon SVG Text"],  # Update this if you have a direct URL to the badge image
+        "image": image_data_uri or "Default image URL if no SVG provided",  # Provide a fallback URL if no SVG content
         "criteria": {
             "narrative": row["Levels Text"],
         },
         "issuer": {
             "id": "https://bloom.pm",
             "name": "Bloom.pm",
-            "url": "https://bloom.pm",
+            "url": "https://bloom.pm/wordpress/wp-content/uploads/badges/issuer.json",
             "email": "bilal@bloom.pm"
         },
         "tags": [row["Short Name"], "community", "self-recognition"]

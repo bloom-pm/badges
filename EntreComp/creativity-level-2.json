@@ -3,14 +3,14 @@
     "type": "BadgeClass",
     "name": "Level 2: Experimentation & Action",
     "description": "Develop several ideas and opportunities to create value, including better solutions to existing and new challenges. Explore and experiment with innovative approaches. Combine knowledge and resources to achieve valuable effects.",
-    "image": "",
+    "image": "Default image URL if no SVG provided",
     "criteria": {
         "narrative": "Level 2: Experimentation & Action"
     },
     "issuer": {
         "id": "https://bloom.pm",
         "name": "Bloom.pm",
-        "url": "https://bloom.pm",
+        "url": "https://bloom.pm/wordpress/wp-content/uploads/badges/issuer.json",
         "email": "bilal@bloom.pm"
     },
     "tags": [
